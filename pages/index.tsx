@@ -18,7 +18,7 @@ export default function Home() {
       <div className="flex h-screen text-center">
         <div className="m-auto text-gray-800">
           <p className="text-6xl font-cursive">Jason Li</p>
-          <p className="text-xl my-3 font-sans">Computer Science Student &#8226; Software Engineer</p>
+          <p className="text-xl my-3 font-sans text-gray-600">Computer Science Student &#8226; Software Engineer</p>
           <IconLink href="https://github.com/jsn-li" icon={faGithub} />
           <IconLink href="https://linkedin.com/in/jsn-li" icon={faLinkedin} />
         </div>
