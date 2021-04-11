@@ -1,4 +1,5 @@
 import Head from 'next/head'
+import { faEnvelope } from '@fortawesome/free-solid-svg-icons'
 import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons'
 import IconLink from "../components/IconLink";
 
@@ -17,10 +18,11 @@ export default function Home() {
       </Head>
       <div className="flex h-screen text-center">
         <div className="m-auto text-gray-800">
-          <p className="text-6xl font-cursive">Jason Li</p>
+          <p className="text-6xl font-cursive select-none">Jason Li</p>
           <p className="text-xl my-3 font-sans text-gray-600">Computer Science Student &#8226; Software Engineer</p>
-          <IconLink href="https://github.com/jsn-li" icon={faGithub} />
-          <IconLink href="https://linkedin.com/in/jsn-li" icon={faLinkedin} />
+          <IconLink className="hover:text-gray-600" href="https://github.com/jsn-li" icon={faGithub} />
+          <IconLink className="hover:text-gray-600" href="mailto:jason@jsn.li" icon={faEnvelope} />
+          <IconLink className="hover:text-gray-600" href="https://linkedin.com/in/jsn-li" icon={faLinkedin} />
         </div>
       </div>
     </div>
