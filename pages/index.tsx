@@ -19,8 +19,8 @@ export default function Home() {
         <div className="m-auto text-gray-800">
           <p className="text-6xl font-cursive">Jason Li</p>
           <p className="text-xl my-3 font-sans">Computer Science Student &#8226; Software Engineer</p>
-          <IconLink href="https://github.jsn.li" icon={faGithub} />
-          <IconLink href="https://linkedin.jsn.li" icon={faLinkedin} />
+          <IconLink href="https://github.com/jsn-li" icon={faGithub} />
+          <IconLink href="https://linkedin.com/in/jsn-li" icon={faLinkedin} />
         </div>
       </div>
     </div>
